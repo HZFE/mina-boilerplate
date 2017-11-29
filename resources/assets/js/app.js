@@ -17,6 +17,8 @@ window.Vue = require('vue');
 
 Vue.component('example', require('./components/Example.vue'));
 Vue.component('hzfe-index', require('./components/Index.vue'));
+Vue.component('index-middle', require('./components/index/Middle.vue'));
+Vue.component('index-member', require('./components/index/Member.vue'));
 
 const app = new Vue({
     el: '#app'
