@@ -4,7 +4,13 @@
 </head>
 <body>
 <div id="app">
-    <hzfe-index></hzfe-index>
+    <main class="home">
+        <hzfe-index-first-screen></hzfe-index-first-screen>
+        <hzfe-index-member></hzfe-index-member>
+        <hzfe-index-works></hzfe-index-works>
+        <hzfe-index-about></hzfe-index-about>
+        <hzfe-index-footer></hzfe-index-footer>
+    </main>
 </div>
 <script src="{{ mix('js/app.js') }}"></script>
 </body>

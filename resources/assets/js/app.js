@@ -15,10 +15,16 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
-Vue.component('hzfe-index', require('./components/Index.vue'));
-Vue.component('index-middle', require('./components/index/Middle.vue'));
-Vue.component('index-member', require('./components/index/Member.vue'));
+// Vue.component('example', require('./components/Example.vue'));
+// Vue.component('hzfe-index', require('./components/Index.vue'));
+// Vue.component('index-middle', require('./components/index/Middle.vue'));
+// Vue.component('index-member', require('./components/index/Member.vue'));
+Vue.component('hzfe-index-member-card', require('./components/MemberCard.vue'));
+Vue.component('hzfe-index-about-us', require('./components/TheAboutUs.vue'));
+Vue.component('hzfe-index-first-screen', require('./components/TheFirstScreen.vue'));
+Vue.component('hzfe-index-footer', require('./components/TheFooter.vue'));
+Vue.component('hzfe-index-member', require('./components/TheMember.vue'));
+Vue.component('hzfe-index-works', require('./components/TheWorks.vue'));
 
 const app = new Vue({
     el: '#app'
