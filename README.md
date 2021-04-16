@@ -13,3 +13,8 @@
 ### 编辑器配置
 
 推荐开发者使用 `vscode` 并安装 `Prettier` 和 `minapp` 插件。项目开发中将由 `.vscode/settings.json` 中的配置进行风格约束。
+
+## 相关项目
+
+[小程序 webpack plugin](https://github.com/HZFE/mina-webpack-plugin)
+[小程序 webpack loader](https://github.com/HZFE/wxml-loader)
