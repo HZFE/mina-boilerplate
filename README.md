@@ -17,4 +17,5 @@
 ## 相关项目
 
 [小程序 webpack plugin](https://github.com/HZFE/mina-webpack-plugin)
+
 [小程序 webpack loader](https://github.com/HZFE/wxml-loader)
