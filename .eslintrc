@@ -1,0 +1,45 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base", "prettier", "plugin:json/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "App": true,
+    "Page": true,
+    "Component": true,
+    "wx": true,
+    "getCurrentPages": true,
+    "getApp": true
+  },
+  "rules": {
+    "radix": "off",
+    "no-unused-vars": "warn",
+    "no-plusplus": "off",
+    "no-console": "off",
+    "no-bitwise": "off",
+    "no-proto": "off",
+    "no-void": "off",
+    "no-nested-ternary": "off",
+    "no-extend-native": "off",
+    "no-else-return": "off",
+    "no-underscore-dangle": "off",
+    "prefer-destructuring": "off",
+    "global-require": "warn",
+    "class-methods-use-this": "off",
+    "consistent-return": "off",
+    "max-classes-per-file": "off",
+    "import/no-extraneous-dependencies": [
+      "warn",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": true
+      }
+    ],
+    "no-param-reassign": "off",
+    "spaced-comment": "off"
+  }
+}
